@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Investment Digest</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0f1a;
+            color: #e0e6ed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 520px;
+            width: 90%;
+            text-align: center;
+        }
+        .card {
+            background: linear-gradient(135deg, #141b2d 0%, #1a2332 100%);
+            border: 1px solid #1e2a3a;
+            border-radius: 16px;
+            padding: 40px 32px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+        .label {
+            font-size: 11px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: #5b9bd5;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+        .date {
+            font-size: 14px;
+            color: #7a8a9e;
+            margin-bottom: 28px;
+        }
+        audio {
+            width: 100%;
+            margin-bottom: 24px;
+            border-radius: 8px;
+            outline: none;
+        }
+        .topics {
+            text-align: left;
+            font-size: 13px;
+            color: #8a9bb0;
+            line-height: 1.8;
+            border-top: 1px solid #1e2a3a;
+            padding-top: 20px;
+        }
+        .topics span {
+            display: inline-block;
+            background: #1a2842;
+            color: #5b9bd5;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin: 3px 2px;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+        }
+        .footer {
+            margin-top: 24px;
+            font-size: 11px;
+            color: #3d4f63;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="label">Audio Briefing</div>
+            <h1>Weekly Investment Digest</h1>
+            <p class="date">April 9, 2026</p>
+
+            <audio controls preload="metadata">
+                <source src="weekly_investment_digest.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="topics">
+                <span>Iran Ceasefire</span>
+                <span>Energy &amp; Commodities</span>
+                <span>Rates &amp; Central Banks</span>
+                <span>Private Credit</span>
+                <span>AI &amp; Technology</span>
+                <span>Equity Strategy</span>
+                <span>Defense Spending</span>
+            </div>
+        </div>
+        <p class="footer">Synthesized from 37 analyst calls and strategy sessions</p>
+    </div>
+</body>
+</html>
